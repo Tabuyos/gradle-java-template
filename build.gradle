@@ -3,7 +3,7 @@ version("your.version")
 
 def junitJupiterVersion = "5.7.0"
 def removeParentSrc = true
-def supportParentChildModule = true
+def supportParentChildModule = false
 
 static def deleteDirectory(File file) {
   if (file.isFile()) {
